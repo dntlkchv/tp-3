@@ -13,6 +13,15 @@ void Ellipsis::getY()
 	cout << "Enter x = ";
 	cin >> x;
 
+	if (a == 0) {
+		cout << "Devide by zero!" << endl;
+		return;
+	}
+
+	if ( b== 0) {
+		cout << "Devide by zero!" << endl;
+		return;
+	}
 	if (x > a) {
 		cout << "|x| >= a" << endl;
 		return;
